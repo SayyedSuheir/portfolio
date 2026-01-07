@@ -42,7 +42,7 @@ export default function Portfolio() {
           <h2 className="text-3xl font-bold mb-8">Skills</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              'JavaScript','HTML','CSS / SCSS','React','Next.js','Angular','Laravel','Tailwind','MongoDB','MySQL','Git','Figma'
+              'JavaScript','HTML','CSS / SCSS','WordPress','React','Next.js','Angular','Laravel','Tailwind','MongoDB','MySQL','Git','Figma'
             ].map(skill => (
               <div key={skill} className="p-4 rounded-2xl shadow-sm border text-center font-medium">
                 {skill}
